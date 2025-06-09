@@ -122,7 +122,15 @@ if __name__ == '__main__':
 #Consulta 2: select country from weatherData
 
 ##Proyecto_parte_2
-#b)Instale la biblioteca de Google BigQuery en su entorno virtual
+#En Simbolo del sistema de windows entro a un entorno virtual
+.\venv\Scripts\activate
+#Instalo Google BigQuery
+pip install google-cloud-bigquery
+#Verifico su instalacion en el visual studio (uso un archivo de prueba para la ejecucion con terminacion .py)
+import google.cloud.bigquery
+print("BigQuery client importado correctamente.")
+
+#Pendiente
 #c)Crea un script Python para cargar datos desde SQLserver a BigQuery.
 #d)Función para extraer los datos de SQL Server. mi. Función para cargar los datos en BigQuery.
 #e)Proceso ETL en BigQuery. 
