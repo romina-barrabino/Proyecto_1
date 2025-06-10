@@ -1,4 +1,4 @@
-##Proyecto_parte_1
+# Proyecto_parte_1
 #Ingreso a la pagina web https://home.openweathermap.org/, me registro y creo una API llamada RomiAPI
 #Instalo SQL Microsoft Server y creo una carpeta llamada weather_db
 #Creo una carpeta en la computadora llamada Proyecto_1_2025 y la abro en el visual studio
@@ -121,7 +121,9 @@ if __name__ == '__main__':
 #Consulta 1: select * from dbo.weatherData
 #Consulta 2: select country from weatherData
 
-##Proyecto_parte_2 (Esto es lo que pude hacer pero no pude terminar por problemas con la tarjeta en ña cuenta de Bigquery)
+# Proyecto_parte_2 (Sin terminar)
+#Esto es el detalle de lo que pude avanzar, pero no pude terminar por problemas con la tarjeta en la cuenta de Bigquery:
+
 #En Simbolo del sistema de windows entro a un entorno virtual
 .\venv\Scripts\activate
 #Instalo Google BigQuery
@@ -130,8 +132,9 @@ pip install google-cloud-bigquery
 import google.cloud.bigquery
 print("BigQuery client importado correctamente.")
 
-#Proyecto_parte_2_opcional: (Realice el mismo trabajo de la primera parte del poryecto pero agregue los conocimientos de privacidad para las API y las contraseñas)
-#Utilice la misma base de datos creada en SQL.
+# Proyecto_parte_2_opcional: 
+#Realice el mismo trabajo de la primera parte del poryecto pero agregue los conocimientos de privacidad para las API y las contraseñas.
+#Utilice la misma base de datos creada en SQL y la misma API de la primer parte del proyecto (pero no hice la clonacion del repositorio).
 #En visual studio cree la misma carpeta un archivo llamado .env, a la cual le adjunte lo siguiente:
 
 API_KEY=19da0f4b67274245671f080a277d4972
