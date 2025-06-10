@@ -154,10 +154,11 @@ import requests
 import pyodbc
 from dotenv import load_dotenv
 
-# Cargo las variables desde el archivo .env
+
+#Cargo las variables desde el archivo .env
 load_dotenv()
 
-# Llamo a los parametros desde el archivo .env
+#Llamo a los parametros desde el archivo .env
 API_KEY = os.getenv('API_KEY')
 CITY = os.getenv('CITY')
 
